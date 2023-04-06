@@ -1,6 +1,6 @@
 import React from 'react'
 
-function hero() {
+function Hero() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function hero() {
   )
 }
 
-export default hero
+export default Hero

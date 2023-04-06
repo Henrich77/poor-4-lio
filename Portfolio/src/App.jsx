@@ -1,7 +1,26 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import * as THREE from 'three'
+import styled from "styled-components"
 import './App.css'
+import Navbar from './components/navbar/navbar'
+import Header from './components/header/header'
+import Main from './components/main/main'
+
+const AppContainer = styled.div`
+height:100vh;
+scroll-snap-type: y mandatory;
+scroll-behavior : smooth;
+overflow-y : auto;
+scrollbar-width: none ;
+&::-webkit-scrollbar{
+  display:none
+};
+// background: url("https://wallpapershome.com/images/wallpapers/3d-1920x1080-4k-hd-wallpaper-yellow-blue-orange-background-254.jpg");
+background-color: darkgrey;
+background-size: cover;
+
+`;
 
 function App() {
 
@@ -20,13 +39,14 @@ function App() {
 
 
   return (
-    <div>
-      <div>Hello world just checking to see if this works</div>
-     
-
-    
-     
-    </div>
+    <AppContainer>
+      <Navbar/>
+      <Header/>
+      <Hero/>
+      <Main/>
+      <Contact/>
+      </AppContainer>
+  
   )
 }
 
