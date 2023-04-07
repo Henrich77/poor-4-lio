@@ -44,8 +44,8 @@ function App() {
   return (
     <AppContainer>
       <Navbar/>
-      <Header/>
       <Hero/>
+      <Header/>
       <Main/>
       <Contact/>
       </AppContainer>
