@@ -14,7 +14,7 @@ top: 0 ;
 
 function Navbar() {
   return (
-    <div>
+
    
         <Section>
         <header>
@@ -34,7 +34,7 @@ function Navbar() {
         </Section>
 
       
-    </div>
+   
   )
 }
 

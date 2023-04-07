@@ -19,7 +19,7 @@ scrollbar-width: none ;
 &::-webkit-scrollbar{
   display:none
 };
-// background: url("https://wallpapershome.com/images/wallpapers/3d-1920x1080-4k-hd-wallpaper-yellow-blue-orange-background-254.jpg");
+ //background: url("https://wallpapershome.com/images/wallpapers/3d-1920x1080-4k-hd-wallpaper-yellow-blue-orange-background-254.jpg");
 background-color: darkgrey;
 background-size: cover;
 

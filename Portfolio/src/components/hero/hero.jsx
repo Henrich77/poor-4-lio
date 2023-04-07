@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {Suspense} from 'react'
 import styled from 'styled-components'
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 
 
@@ -48,34 +50,13 @@ const Title = styled.h1`
   }
 `;
 
-const WhatWeDo = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 10px;
-`;
 
-const Line = styled.img`
-  height: 5px;
-`;
-
-const Subtitle = styled.h2`
-  color: #da4ea2;
-`;
-
-const Desc = styled.p`
-  font-size: 24px;
-  color: lightgray;
-  @media only screen and (max-width: 768px) {
-    padding: 20px;
-    text-align: center;
-  }
-`;
 
 const Button = styled.button`
-  background-color: #da4ea2;
+  background-color: #882525;
   color: white;
   font-weight: 500;
-  width: 100px;
+  width: 300px;
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -121,10 +102,39 @@ margin-right: 3vw;
 
 function Hero() {
   return (
-    <div>
-        <Section> Hero </Section>
+    
+        <Section>
+   
+      <Container>
+        <Left>
+          <Title> Hello welcome to my page </Title>
+        
+          <Button>About Me </Button>
+        </Left>
+        <Right>
+          <Canvas>
+         
+            <Suspense fallback={null}>
+              <OrbitControls enableZoom={false} />
+              <ambientLight intensity={0.3} />
+              <directionalLight position={[3, 2, 1]} />
+              <Sphere args={[1, 100, 200]} scale={2.5}>
+                <MeshDistortMaterial
+                  color="#882525"
+                  attach="material"
+                  distort={0.5}
+                  speed={3}
+                />
+              </Sphere>
+            </Suspense>
+          </Canvas>
+          <Img src="https://user-images.githubusercontent.com/119962472/230529364-b95c4682-d9de-4897-86f8-451b0da0f078.png" />
+       
+        </Right>
+      </Container>
+    </Section>
       
-    </div>
+   
   )
 }
 
