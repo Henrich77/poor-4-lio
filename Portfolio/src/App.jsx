@@ -9,6 +9,7 @@ import Header from './components/header/header'
 import Main from './components/main/main'
 import Hero from './components/hero/hero'
 import Contact from './components/contact/contact'
+import Skills from './components/skills/skills'
 
 const AppContainer = styled.div`
 height:100vh;
@@ -20,7 +21,7 @@ scrollbar-width: none ;
   display:none
 };
  //background: url("https://wallpapershome.com/images/wallpapers/3d-1920x1080-4k-hd-wallpaper-yellow-blue-orange-background-254.jpg");
-background-color: darkgrey;
+background-color: beige;
 background-size: cover;
 
 `;
@@ -43,11 +44,14 @@ function App() {
 
   return (
     <AppContainer>
+    
       <Navbar/>
       <Hero/>
       <Header/>
       <Main/>
+      <Skills/>
       <Contact/>
+    
       </AppContainer>
   
   )

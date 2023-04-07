@@ -19,10 +19,10 @@ function Navbar() {
         <Section>
         <header>
           <nav>
-            <NavLink> Home </NavLink>
+            {/* <NavLink> Home </NavLink>
             <NavLink> About </NavLink>
             <NavLink> Projects </NavLink>
-       
+        */}
 
           </nav>
           <h2> Henrich&nbsp;&nbsp;&nbsp;Tanis</h2> 
