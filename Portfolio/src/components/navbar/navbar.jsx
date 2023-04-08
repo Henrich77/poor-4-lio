@@ -7,8 +7,8 @@ import NavLink from 'react-bootstrap/esm/NavLink'
 const Section = styled.div`
 height:10vh;
 scroll-snap-align: center ;
-position:sticky;
-top: 0 ;
+//position:sticky;
+//top: 0 ;
 
 `
 

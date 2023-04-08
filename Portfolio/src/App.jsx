@@ -21,7 +21,7 @@ scrollbar-width: none ;
   display:none
 };
  //background: url("https://wallpapershome.com/images/wallpapers/3d-1920x1080-4k-hd-wallpaper-yellow-blue-orange-background-254.jpg");
-background-color: grey;
+background-color: black;
 background-size: cover;
 
 `;
