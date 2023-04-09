@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
         <Section> 
-          <h2> Resume </h2>
+          <h2 id='about'> About </h2>
              </Section>
       
     </div>

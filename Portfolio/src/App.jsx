@@ -6,7 +6,7 @@ import './App.css'
 
 import Navbar from './components/navbar/navbar'
 import Header from './components/header/header'
-import Main from './components/main/main'
+import Main from './components/content/content'
 import Hero from './components/hero/hero'
 import Contact from './components/contact/contact'
 import Skills from './components/skills/skills'

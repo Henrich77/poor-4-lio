@@ -10,7 +10,7 @@ function Main() {
   return (
     <div>
         <Section> 
-          <h2> Projects </h2> 
+          <h2 id='projects'> Projects </h2> 
           
           </Section>
       

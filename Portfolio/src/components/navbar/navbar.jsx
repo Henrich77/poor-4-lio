@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Social from '../nav/nav'
 import './navbar.scss'
+
+
 import NavLink from 'react-bootstrap/esm/NavLink'
 import { motion } from "framer-motion";
 
@@ -11,6 +13,11 @@ scroll-snap-align: center ;
 //position:sticky;
 //top: 0 ;
 
+`
+const Link= styled.a`
+text-decloration:none;
+color:inherit;
+font-weight: bold;
 `
 
 function Navbar() {
@@ -22,12 +29,14 @@ function Navbar() {
         <header>
           <nav>
           <ul>
+  
+           <motion.li whileHover={{ y: 5 }}
+            whileTap={{ scale: 0.9 }}><Link href='#projects'> Projects</Link> </motion.li>
+            {/* </Link> */}
             <motion.li  whileHover={{ y: 5 }}
-            whileTap={{ scale: 0.9 }}> Projects </motion.li>
+            whileTap={{ scale: 0.9 }}><Link href='#about'> About</Link></motion.li>
             <motion.li  whileHover={{ y: 5 }}
-            whileTap={{ scale: 0.9 }}> About </motion.li>
-            <motion.li  whileHover={{ y: 5 }}
-            whileTap={{ scale: 0.9 }}> Contact </motion.li>
+            whileTap={{ scale: 0.9 }}><Link href='#contact'> Contact </Link></motion.li>
           </ul>
 
           </nav>

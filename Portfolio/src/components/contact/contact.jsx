@@ -87,7 +87,7 @@ export const Contact = () => {
   return (
 
     <Section>
-      <h2> Contact me </h2>
+      <h2 id='contact'> Contact me </h2>
       <Container>
       <Right>
       <div className='contactdiv'>
