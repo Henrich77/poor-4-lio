@@ -17,6 +17,7 @@ function Navbar() {
 
    
         <Section>
+          
         <header>
           <nav>
             {/* <NavLink> Home </NavLink>
@@ -25,7 +26,7 @@ function Navbar() {
         */}
 
           </nav>
-          <h2> Henrich&nbsp;&nbsp;&nbsp;Tanis</h2> 
+          <img className='img' src='https://user-images.githubusercontent.com/119962472/230747371-4fb86493-a3a1-4d1a-8c79-391bb25ef7c3.png' alt='logo'/>
 
           <Social/>
         </header>

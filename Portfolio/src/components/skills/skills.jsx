@@ -12,7 +12,7 @@ const Skill = ({name,x,y}) => {
 
   return (
     <motion.div className='motion-skill'   
-    whileHover={{ scale:1.05 }}
+    whileHover={{ scale:1.7 }}
     initial={{ x: 0, y: 0 }}
     whileInView={{ x: x, y: y, transition: {duration: 1.5} }} >
       {name}
@@ -38,7 +38,7 @@ function Skills() {
           <Skill name="Vite" x="-24vw" y="30vw" />
 
         <Skill name="CSS" x="-5vw" y="27vw" />
-        <Skill name="JavaScript" x="0vw" y="21vw" />
+        <Skill name="JavaScript" x="0vw" y="20vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NodeJS" x="-20vw" y="15vw" />
         <Skill name="mongoDB" x="15vw" y="3vw" />

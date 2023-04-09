@@ -44,7 +44,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 74px;
+  font-size: 50px;
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -53,13 +53,13 @@ const Title = styled.h1`
 
 
 const Button = styled.button`
-  background-color: #882525;
-  color: white;
+  background-color: #E79AA2;
+  color: black;
   font-weight: 500;
   width: 300px;
   padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 2rem;
   cursor: pointer;
 `;
 
@@ -77,8 +77,8 @@ const Img = styled.img`
 border-radius: 50%;
 object-fit: cover;
 margin-right: 3vw;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300x;
   object-fit: contain;
   position: absolute;
   top: 0;
@@ -107,7 +107,7 @@ function Hero() {
    
       <Container>
         <Left>
-          <Title> Hello welcome to my page </Title>
+          <Title>  Welcome to my Portfolio </Title>
         
           <Button>About Me </Button>
         </Left>
@@ -116,11 +116,11 @@ function Hero() {
          
             <Suspense fallback={null}>
               <OrbitControls enableZoom={false} />
-              <ambientLight intensity={0.3} />
-              <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.5}>
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[6, 2, 5]} />
+              <Sphere args={[1, 100, 200]} scale={2.14}>
                 <MeshDistortMaterial
-                  color="#882525"
+                  color="#E79AA2"
                   attach="material"
                   distort={0.5}
                   speed={3}
