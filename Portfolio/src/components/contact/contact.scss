@@ -1,10 +1,21 @@
 .contactdiv {
     display: flex;
     justify-content: center;
+    background-color: #E79AA2 ;
+    height: 60vh;
 
     form{
 
         display: flex;
         flex-direction: column;
+        width: 30rem;
+        justify-content: center;
+
+        label{
+
+            font-size: 2rem;
+            padding: 5px;
+        }
+      
     }
 }
