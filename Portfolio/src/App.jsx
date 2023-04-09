@@ -5,8 +5,8 @@ import styled from "styled-components"
 import './App.css'
 
 import Navbar from './components/navbar/navbar'
-import Header from './components/header/header'
-import Main from './components/content/content'
+import Header from './components/about/about'
+import Main from './components/projects/projects'
 import Hero from './components/hero/hero'
 import Contact from './components/contact/contact'
 import Skills from './components/skills/skills'

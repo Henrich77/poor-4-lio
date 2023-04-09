@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import './projects.scss'
 
 const Section = styled.div`
 height:100vh;

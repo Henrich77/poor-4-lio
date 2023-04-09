@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import './about.scss'
 
 const Section = styled.div`
 height:100vh;
@@ -10,7 +11,7 @@ function Header() {
   return (
     <div>
         <Section> 
-          <h2 id='about'> About </h2>
+          <h2 id='about'> About Me </h2>
              </Section>
       
     </div>

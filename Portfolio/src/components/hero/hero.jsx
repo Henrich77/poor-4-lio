@@ -52,13 +52,13 @@ const Title = styled.h1`
 `;
 
 const Button = styled.button`
+
   background-color: #e79aa2;
   color: black;
-  font-weight: 500;
-  width: 300px;
+  font-weight: bold;
+  width: 10rem;
   padding: 10px;
   border: none;
-  border-radius: 2rem;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
 `;
@@ -121,7 +121,7 @@ function Hero() {
             contribute to the success of your next project.
           </Summary>
 
-          <Button>About Me </Button>
+          <Button> Resume </Button>
         </Left>
         <Right>
           <Canvas>
