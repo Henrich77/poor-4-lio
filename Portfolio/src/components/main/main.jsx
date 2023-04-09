@@ -9,7 +9,10 @@ scroll-snap-align: center ;
 function Main() {
   return (
     <div>
-        <Section> Main </Section>
+        <Section> 
+          <h2> Projects </h2> 
+          
+          </Section>
       
     </div>
   )

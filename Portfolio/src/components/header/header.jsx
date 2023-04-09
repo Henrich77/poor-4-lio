@@ -9,7 +9,9 @@ scroll-snap-align: center ;
 function Header() {
   return (
     <div>
-        <Section> header </Section>
+        <Section> 
+          <h2> Resume </h2>
+             </Section>
       
     </div>
   )
