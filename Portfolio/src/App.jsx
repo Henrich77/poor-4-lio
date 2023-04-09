@@ -21,7 +21,7 @@ scrollbar-width: none ;
   display:none
 };
  //background: url("https://user-images.githubusercontent.com/119962472/230741508-1454f38b-0dba-4b67-a0f2-2b3876927dba.png");
-background: #BFBFBF;
+background-color: #BFBFBF;
 background-size: cover;
 
 `;
