@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import './contact.scss'
 import Cube from '../cube/cube';
 import { Canvas } from '@react-three/fiber';
+import Footer from '../footer/footer';
 
 // const Section = styled.div`
 // height:100vh;
@@ -113,6 +114,7 @@ export const Contact = () => {
           </Canvas>
         </Left>
         </Container>
+        <Footer/>
     </Section>
   );
 };

@@ -19,7 +19,39 @@ header{
        width: 26vw;
        margin-top: -7.5rem;
        padding: 0;
-       margin-left:10rem ;
+       margin-right: 5rem ;
        
     }
+}
+nav{
+    display: flex;
+    
+   ul{
+    display: flex;
+    gap: 2rem;
+   
+
+   
+   
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        background-color: #e79aa2;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        font-weight: bolder;
+       font-family: 'Times New Roman', Times, serif;
+    
+        
+        
+
+    
+     
+
+    }
+   }
 }

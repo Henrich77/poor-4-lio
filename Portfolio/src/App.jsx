@@ -52,7 +52,7 @@ function App() {
       <Main/>
       <Skills/>
       <Contact/>
-      <Footer/>
+      
     
       </AppContainer>
   
