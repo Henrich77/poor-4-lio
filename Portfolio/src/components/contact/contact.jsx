@@ -1,15 +1,72 @@
 
 import styled from 'styled-components'
-import React, { useRef } from 'react';
+import React, { useRef,Suspense } from 'react';
+import { OrbitControls } from "@react-three/drei";
 import emailjs from '@emailjs/browser';
 import './contact.scss'
+import Cube from '../cube/cube';
+import { Canvas } from '@react-three/fiber';
+
+// const Section = styled.div`
+// height:100vh;
+// scroll-snap-align: center ;
+// //background-image: url('https://user-images.githubusercontent.com/119962472/230750434-8ecc0b18-552d-43fc-95a5-a7faa22b0d1d.png' ) ;
+// //background-size: cover;
+// `
 
 const Section = styled.div`
-height:100vh;
-scroll-snap-align: center ;
-//background-image: url('https://user-images.githubusercontent.com/119962472/230750434-8ecc0b18-552d-43fc-95a5-a7faa22b0d1d.png' ) ;
-//background-size: cover;
-`
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+`;
+
+const Container = styled.div`
+  height: 100vh;
+  scroll-snap-align: center;
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Left = styled.div`
+  flex: 1;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const Title = styled.h1`
+  font-size: 50px;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+`;
+
+
+
+const Button = styled.button`
+  background-color: #E79AA2;
+  color: black;
+  font-weight: 500;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+`;
+
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
+`;
 
 export const Contact = () => {
   const form = useRef();
@@ -29,6 +86,8 @@ export const Contact = () => {
 
     <Section>
       <h2> Contact me </h2>
+      <Container>
+      <Right>
       <div className='contactdiv'>
       <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
@@ -40,6 +99,19 @@ export const Contact = () => {
       <input type="submit" value="Send" />
       </form>
     </div>
+    </Right>
+    
+        <Left>
+          <Canvas camera={{ position: [5, 5, 5], fov: 20 }}>
+            <Suspense fallback={null}>
+              <ambientLight intensity={0.5} />
+              <directionalLight position={[3, 2, 1]} />
+              <Cube />
+              <OrbitControls enableZoom={false} autoRotate />
+            </Suspense>
+          </Canvas>
+        </Left>
+        </Container>
     </Section>
   );
 };
