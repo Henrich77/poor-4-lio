@@ -10,6 +10,7 @@ import Main from './components/main/main'
 import Hero from './components/hero/hero'
 import Contact from './components/contact/contact'
 import Skills from './components/skills/skills'
+import Footer from './components/footer/footer'
 
 const AppContainer = styled.div`
 height:100vh;
@@ -51,6 +52,7 @@ function App() {
       <Main/>
       <Skills/>
       <Contact/>
+      <Footer/>
     
       </AppContainer>
   
