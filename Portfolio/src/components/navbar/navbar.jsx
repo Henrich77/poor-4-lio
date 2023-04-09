@@ -24,7 +24,7 @@ function Navbar() {
           <ul>
             <motion.li  whileHover={{ y: 5 }}
             whileTap={{ scale: 0.9 }}> Projects </motion.li>
-            <motion.li  whileHover={{ y: -5 }}
+            <motion.li  whileHover={{ y: 5 }}
             whileTap={{ scale: 0.9 }}> About </motion.li>
             <motion.li  whileHover={{ y: 5 }}
             whileTap={{ scale: 0.9 }}> Contact </motion.li>
