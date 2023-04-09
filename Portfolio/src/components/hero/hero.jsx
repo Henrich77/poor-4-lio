@@ -98,6 +98,12 @@ const Img = styled.img`
       transform: translateY(20px);
     }
   }
+  
+`;
+const Link= styled.a`
+text-decloration:none;
+color:inherit;
+font-weight: bold;
 `;
 
 function Hero() {
@@ -117,11 +123,10 @@ function Hero() {
             appealing. In my portfolio, you will find a range of projects that
             demonstrate my ability to create software that is both functional
             and aesthetically pleasing. Thank you for taking the time to view my
-            portfolio. I look forward to the opportunity to work with you and
-            contribute to the success of your next project.
+            portfolio. I look forward to the opportunity to work with you.
           </Summary>
 
-          <Button> Resume </Button>
+         <Link href="https://github.com/Henrich77/poor-4-lio/files/11186264/Henrich.Tanis.----.Resume.pdf" target={"_blank"}  download={true}><Button> Resume</Button></Link>
         </Left>
         <Right>
           <Canvas>
