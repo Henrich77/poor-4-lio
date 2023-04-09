@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 const Section = styled.div`
  height:100vh;
+ scroll-behavior : smooth;
 scroll-snap-align: center ;
 `
 const Skill = ({name,x,y}) => {

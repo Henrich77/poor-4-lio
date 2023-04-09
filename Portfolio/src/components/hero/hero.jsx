@@ -3,9 +3,12 @@ import styled from "styled-components";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import "./hero.scss";
+import { MdFileDownload} from "react-icons/md";
+import { motion } from "framer-motion";
 
 const Section = styled.div`
   height: 100vh;
+  scroll-behavior : smooth;
   scroll-snap-align: center;
   display: flex;
   flex-direction: column;
@@ -55,12 +58,15 @@ const Button = styled.button`
 
   background-color: #e79aa2;
   color: black;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin-left: 15rem;
   width: 10rem;
   padding: 10px;
   border: none;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
+  
 `;
 
 const Right = styled.div`
@@ -126,7 +132,8 @@ function Hero() {
             portfolio. I look forward to the opportunity to work with you.
           </Summary>
 
-         <Link href="https://github.com/Henrich77/poor-4-lio/files/11186264/Henrich.Tanis.----.Resume.pdf" target={"_blank"}  download={true}><Button> Resume</Button></Link>
+         <motion.div whileHover={{ scale:1.5 }}
+            ><Link href="https://github.com/Henrich77/poor-4-lio/files/11186264/Henrich.Tanis.----.Resume.pdf" target={"_blank"}  download={true}><Button> Resume <MdFileDownload style={{fontSize:"1.5rem"}}/></Button></Link></motion.div>
         </Left>
         <Right>
           <Canvas>

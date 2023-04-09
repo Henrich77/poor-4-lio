@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const Section = styled.div`
 height:8vh;
+scroll-behavior : smooth;
 scroll-snap-align: center ;
 border-top: 2px solid black;
 `

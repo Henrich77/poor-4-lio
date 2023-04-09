@@ -18,6 +18,7 @@ import Footer from '../footer/footer';
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
+  scroll-behavior : smooth;
   //display: flex;
   //justify-content: center;
 `;

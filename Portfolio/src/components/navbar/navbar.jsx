@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 
 const Section = styled.div`
 height:10vh;
+scroll-behavior : smooth;
 scroll-snap-align: center ;
 //position:sticky;
 //top: 0 ;
@@ -40,7 +41,7 @@ function Navbar() {
           </ul>
 
           </nav>
-          <img className='img' src='https://user-images.githubusercontent.com/119962472/230747371-4fb86493-a3a1-4d1a-8c79-391bb25ef7c3.png' alt='logo'/>
+          <motion.div whileHover={{ x: -5,y:5 }}><img className='img' src='https://user-images.githubusercontent.com/119962472/230747371-4fb86493-a3a1-4d1a-8c79-391bb25ef7c3.png' alt='logo'/></motion.div>
 
           <Social/>
         </header>
