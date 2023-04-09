@@ -17,8 +17,8 @@ import { Canvas } from '@react-three/fiber';
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
-  display: flex;
-  justify-content: center;
+  //display: flex;
+  //justify-content: center;
 `;
 
 const Container = styled.div`
@@ -103,7 +103,7 @@ export const Contact = () => {
     </Right>
     
         <Left>
-          <Canvas camera={{ position: [5, 5, 5], fov: 20 }}>
+          <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
             <Suspense fallback={null}>
               <ambientLight intensity={0.5} />
               <directionalLight position={[3, 2, 1]} />

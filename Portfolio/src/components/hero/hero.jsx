@@ -2,6 +2,7 @@ import React, {Suspense} from 'react'
 import styled from 'styled-components'
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import './hero.scss'
 
 
 
@@ -44,9 +45,11 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 50px;
+  font-size: 2.3rem;
+  font-family: 'Frijole', cursive;
   @media only screen and (max-width: 768px) {
     text-align: center;
+    font-family: 'Frijole', cursive;
   }
 `;
 
@@ -61,10 +64,11 @@ const Button = styled.button`
   border: none;
   border-radius: 2rem;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 
 const Right = styled.div`
-  flex: 3;
+  flex: 2;
   position: relative;
   @media only screen and (max-width: 768px) {
     flex: 1;
@@ -107,7 +111,7 @@ function Hero() {
    
       <Container>
         <Left>
-          <Title>  Welcome to my Portfolio </Title>
+          <Title>  Welcome to my Portfolio! </Title>
         
           <Button>About Me </Button>
         </Left>
