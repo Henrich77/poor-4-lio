@@ -2,6 +2,7 @@
 import styled from 'styled-components'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './contact.scss'
 
 const Section = styled.div`
 height:100vh;
@@ -27,7 +28,9 @@ export const Contact = () => {
   return (
 
     <Section>
-    <form ref={form} onSubmit={sendEmail}>
+      <h2> Contact me </h2>
+      <div className='contactdiv'>
+      <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
@@ -35,7 +38,8 @@ export const Contact = () => {
       <label>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
-    </form>
+      </form>
+    </div>
     </Section>
   );
 };
