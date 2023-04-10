@@ -6,13 +6,13 @@ import React from 'react'
 function Timeline() {
   return (
     <div>
-        <VerticalTimeline animate={ true } >
-  <VerticalTimelineElement
+        <VerticalTimeline animate={ true } lineColor={ 'black' } >
+  <VerticalTimelineElement style={{boxShadow:'none'}}
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'black', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  white' }}
     date="2011 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: '#E79AA2', color: '#fff', boxShadow:"black"}}
  
   >
     <h3 className="vertical-timeline-element-title">Creative Director</h3>

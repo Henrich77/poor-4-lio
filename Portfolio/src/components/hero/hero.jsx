@@ -97,6 +97,7 @@ const Img = styled.img`
   right: 0;
   margin: auto;
   animation: animate 3s infinite ease alternate;
+  //animation: cd-bounce-1 1s infinite ease alternate;
   @media only screen and (max-width: 768px) {
     width: 300px;
     height: 300px;
