@@ -16,10 +16,11 @@ function Circle( {reference}) {
 
   return (
     <div>
-      <figure className='figure'>
-        <svg className='svg'>
-          <circle className='circle1'/>
-          <motion.circle className={'motionCirlce'}/>
+      <figure>
+        <svg >
+          <circle />
+          <motion.circle className={'motioncircle'}  
+          style={{pathLength : scrollYProgress }}/>
           <circle className='circle2'/>
         </svg>
       </figure>

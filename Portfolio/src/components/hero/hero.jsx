@@ -48,6 +48,7 @@ const Left = styled.div`
 const Title = styled.h1`
   font-size: 2.3rem;
   font-family: "Frijole", cursive;
+  margin-top: 10rem;
   @media only screen and (max-width: 768px) {
     text-align: center;
     font-family: "Frijole", cursive;
@@ -79,6 +80,7 @@ const Right = styled.div`
 `;
 const Summary = styled.p`
   font-size: 1 rem;
+  padding:5px
 `;
 
 const Img = styled.img`

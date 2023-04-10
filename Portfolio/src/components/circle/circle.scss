@@ -1,0 +1,68 @@
+
+
+// figure {
+//     position: absolute;
+//     left: 0;
+//     stroke: blue($color: #de2d2d);
+    
+//     svg{
+//         transform: rotate(90deg);
+//         width: 18rem;
+//         height: 18rem;
+//         $view-box: 0 0 100 100;
+   
+   
+        
+//     circle{
+//         $cx: 75;
+// $cy: 50;
+// $r: 20;
+// stroke: blue($color: #de2d2d);
+// fill: black;
+//         }
+
+//         .motioncircle{
+//             $cx: 75;
+//             $cy: 50;
+//             $r: 20;
+//       stroke-width: 5px;
+//       fill: blue($color: #821616);
+
+//         }
+//         .circle2{
+            
+//                 &.animate-pulse {
+//                   animation: pulse 2s infinite;
+//                 }
+//                 &.stroke-1 {
+//                   stroke-width: 1px;
+//                 }
+//                 &.fill-primary {
+//                   fill: #0074d9;
+//                 }
+                
+//                 $r: 10;
+//                 $cx: 75;
+//                 $cy: 50;
+//               }
+              
+//               @keyframes pulse {
+//                 0% {
+//                   transform: scale(0.9);
+//                   opacity: 0.7;
+//                 }
+//                 50% {
+//                   transform: scale(1);
+//                   opacity: 1;
+//                 }
+//                 100% {
+//                   transform: scale(0.9);
+//                   opacity: 0.7;
+//                 }
+              
+
+
+//         }
+//     }
+
+// }
