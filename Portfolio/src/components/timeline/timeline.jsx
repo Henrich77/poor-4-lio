@@ -9,52 +9,55 @@ function Timeline() {
         <VerticalTimeline animate={ true } lineColor={ 'black' } >
   <VerticalTimelineElement style={{boxShadow:'none'}}
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'black', color: '#fff' }}
+    contentStyle={{ background: '#E79AA2', color: 'black' }}
     contentArrowStyle={{ borderRight: '7px solid  white' }}
-    date="2011 - present"
-    iconStyle={{ background: '#E79AA2', color: '#fff', boxShadow:"black"}}
+    date=""
+    iconStyle={{ background: 'black', color: '#fff', boxShadow:"#E79AA2"}}
  
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title"> my info </h3>
+    <h4 className="vertical-timeline-element-subtitle"> my info </h4>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+   my info about life
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#E79AA2', color: 'black' }}
+    date=""
+    iconStyle={{ background: 'black', color: '#fff' }}
  
   >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title"> my info </h3>
+    <h4 className="vertical-timeline-element-subtitle"> my info </h4>
     <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+    my info about life
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#E79AA2', color: 'black' }}
+    date=""
+    iconStyle={{ background: 'black', color: '#fff' }}
  
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <h3 className="vertical-timeline-element-title"> my info</h3>
+    <h4 className="vertical-timeline-element-subtitle"> my info</h4>
     <p>
-      User Experience, Visual Design
+    my info about life
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentStyle={{ background: '#E79AA2', color: 'black' }}
+    date=""
+    iconStyle={{ background: 'black', color: '#E79AA2' }}
  
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title"> my info</h3>
+    <h4 className="vertical-timeline-element-subtitle"> my info</h4>
     <p>
-      User Experience, Visual Design
+    my info about life
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
