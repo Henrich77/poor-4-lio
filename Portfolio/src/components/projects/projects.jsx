@@ -4,7 +4,7 @@ import "./projects.scss";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import projects from "../../constants/constants";
-
+import { SocialIcon } from 'react-social-icons';
 const Section = styled.div`
   height: 100vh;
   scroll-behavior: smooth;
@@ -22,13 +22,16 @@ const Card = ({ title, description, source, img }) => {
             speed: 450,
           }}
         >
-          <img className="img" src={img} alt="projects" onClick={() => window.open(source, "_blank")}/>
+          <img className="img" src={img} alt="projects" onClick={() => window.open( "_blank")}/>
         </Tilt>
       </div>
       <div className="info">
-        <h2 className="info-h2"> {title}</h2>
-        <p className="info-p">{description}</p>
-        <div></div>
+        <h2 className="info-h2"><span onClick={() => window.open( source)} style={{cursor:'pointer'}}> <SocialIcon network='github' fgColor="white" bgColor='tranparent'  /></span>{title}</h2>
+        <p className="info-p">{description} </p>
+
+     
+       
+      
       </div>
     </div>
   );
