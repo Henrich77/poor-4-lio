@@ -11,6 +11,7 @@ import Hero from './components/hero/hero'
 import Contact from './components/contact/contact'
 import Skills from './components/skills/skills'
 import Footer from './components/footer/footer'
+import Project from './components/projects/projects'
 
 const AppContainer = styled.div`
 height:100vh;
@@ -49,7 +50,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Header/>
-      <Main/>
+      <Project/>
       <Skills/>
       <Contact/>
       

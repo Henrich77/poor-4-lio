@@ -1,50 +1,61 @@
-import React from 'react'
-import styled from 'styled-components'
-import './projects.scss'
-import {motion} from 'framer-motion'
-import { Tilt } from 'react-tilt'
+import React from "react";
+import styled from "styled-components";
+import "./projects.scss";
+import { motion } from "framer-motion";
+import {Tilt} from "react-tilt";
+import projects from "../constants/constants";
 
 const Section = styled.div`
-height:100vh;
-scroll-behavior : smooth;
-scroll-snap-align: center ;
-`
-const Card = (
-  title,
-  description,
-  source,
-  img,
-) =>{ 
-  return (
-    <div>
+  height: 100vh;
+  scroll-behavior: smooth;
+  scroll-snap-align: center;
+`;
 
-        <div className="card">
-        <div>
-            <img className='img' src={img}/>
-        </div>
-        <div className="info">
-            <h2> {title}</h2>
-            <p>{description}</p>
-          <div></div>
-        </div>
+const Card = ({ title, description, source, img }) => {
+  return (
+    
+   
+      <div className="card">
+        <Tilt
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+        >
+          <div>
+            <img className="img" src={img} alt="projects" />
+          </div>
+          <div className="info">
+            <h2 className="info-h2"> {title}</h2>
+            <p className="info-p">{description}</p>
+            <div></div>
+          </div>
+        </Tilt>
       </div>
-      
-    </div>
-  )
+   
+  );
+};
 
-
-}
-
-function Main() {
+function Project() {
   return (
-    <div>
-        <Section> 
-          <h2 id='projects'> Projects </h2> 
-          
-          </Section>
+    <Section>
+
+      <h2 id="projects">Projects</h2>
+   
+      <>
+      <div  className="card-container">
+   
+        {projects.map((project, index) => (
+          <Card key={`project-${index}`} index={index} {...project} />
+        ))}
+        </div>
       
-    </div>
-  )
+      </>
+
+      </Section>
+  
+  );
 }
 
-export default Main
+export default Project;
