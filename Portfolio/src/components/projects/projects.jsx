@@ -11,7 +11,7 @@ const Section = styled.div`
   scroll-snap-align: center;
 `;
 
-const Card = ({ title, description, source, img }) => {
+const Card = ({ title, description, source, img, live }) => {
   return (
     <div className="card">
       <div>
@@ -22,7 +22,7 @@ const Card = ({ title, description, source, img }) => {
             speed: 450,
           }}
         >
-          <img className="img" src={img} alt="projects" onClick={() => window.open( "_blank")}/>
+          <img className="img" src={img} alt="projects" onClick={() => window.open(live, "_blank")} style={{cursor:"pointer"}}/>
         </Tilt>
       </div>
       <div className="info">
