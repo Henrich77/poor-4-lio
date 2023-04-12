@@ -42,7 +42,7 @@ function Timeline() {
         >
           {/* <h3 className="vertical-timeline-element-title"> my info </h3> */}
           {/* <h4 className="vertical-timeline-element-subtitle"> Growing up , whenver there was a techical problem in the household I was the one everyone called upon to fix the issue so that is were my tech story begins. I remember when the first touch screen cell phone was introduced to society and my father brought one and did not know how to use it so I begin to learn and teach him </h4> */}
-          <p style={{ fontSize: "1.2rem" }}>
+          <p style={{ fontSize: "1.3rem" }}>
             Growing up , whenever there was a technical problem in the household
             I was the one everyone called upon to fix the issue so that is were
             my tech story began and I embraced it. It felt rewarding fixing a
