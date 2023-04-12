@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import './projects.scss'
+import {motion} from 'framer-motion'
+import { Tilt } from 'react-tilt'
 
 const Section = styled.div`
 height:100vh;
