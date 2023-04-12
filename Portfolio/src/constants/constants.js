@@ -2,7 +2,7 @@ const projects = [
     {
       
         title:'WorkHive',
-        description:' WorkHive is a social media platform that is foundationally based on helping users find jobs. In WorkHive users are able to interact with one another and provides job seekers with a streamlined, efficient way to search for and apply to job openings in their field.',
+        description:'A social platform were users are able to interact with one another and provides job seekers with a streamlined, efficient way to search for and apply to job openings in their field.',
         source:'https://github.com/TrentLe/WorkHive',
         img:'https://user-images.githubusercontent.com/119962472/231581895-03a9b55f-7975-455d-9fd4-c0310627ec8a.png',
     },

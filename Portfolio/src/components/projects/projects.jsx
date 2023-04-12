@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import "./projects.scss";
 import { motion } from "framer-motion";
-import {Tilt} from "react-tilt";
-import projects from "../constants/constants";
+import { Tilt } from "react-tilt";
+import projects from "../../constants/constants";
 
 const Section = styled.div`
   height: 100vh;
@@ -13,9 +13,8 @@ const Section = styled.div`
 
 const Card = ({ title, description, source, img }) => {
   return (
-    
-   
-      <div className="card">
+    <div className="card">
+      <div>
         <Tilt
           options={{
             max: 45,
@@ -23,38 +22,31 @@ const Card = ({ title, description, source, img }) => {
             speed: 450,
           }}
         >
-          <div>
-            <img className="img" src={img} alt="projects" />
-          </div>
-          <div className="info">
-            <h2 className="info-h2"> {title}</h2>
-            <p className="info-p">{description}</p>
-            <div></div>
-          </div>
+          <img className="img" src={img} alt="projects" onClick={() => window.open(source, "_blank")}/>
         </Tilt>
       </div>
-   
+      <div className="info">
+        <h2 className="info-h2"> {title}</h2>
+        <p className="info-p">{description}</p>
+        <div></div>
+      </div>
+    </div>
   );
 };
 
 function Project() {
   return (
     <Section>
-
       <h2 id="projects">Projects</h2>
-   
-      <>
-      <div  className="card-container">
-   
-        {projects.map((project, index) => (
-          <Card key={`project-${index}`} index={index} {...project} />
-        ))}
-        </div>
-      
-      </>
 
-      </Section>
-  
+      <>
+        <div className="card-container">
+          {projects.map((project, index) => (
+            <Card key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
+      </>
+    </Section>
   );
 }
 

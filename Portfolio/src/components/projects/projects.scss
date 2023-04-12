@@ -4,6 +4,7 @@
 .card-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 
   .card {
     background-color: #e79aa2;
@@ -11,6 +12,8 @@
     height: 58vh;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
+    
 
     .img {
       justify-self: center;
@@ -29,11 +32,12 @@
 
       .info-h2 {
         margin-left: 1rem;
-        font-size: 8px;
+        font-size: 1.5rem;
+        margin-top: 5px;
       }
       .info-p {
         margin-left: 1rem;
-        font-size: 2px;
+        font-size: 1rem;
       }
     }
   }
