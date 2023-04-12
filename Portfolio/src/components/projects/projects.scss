@@ -1,3 +1,38 @@
 #projects{
     margin-top: 90rem;
 }
+
+.card {
+
+    background-color: #E79AA2;
+    width: 20vw;
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+
+    .img-container{
+
+        justify-self: center;
+
+   
+    background-image: url("https://thetribune.media.clients.ellingtoncms.com/img/photos/2018/08/17/Claircine_Tanis_t280.jpg?ed0c8a36ff9a452a7fd5d01f708da75494446577");
+    background-size: cover;
+    width: 18vw;
+    height: 30vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+    border-radius: 3%;
+
+
+    }
+
+    .info{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+}
