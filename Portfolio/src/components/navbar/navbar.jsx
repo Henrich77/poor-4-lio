@@ -6,6 +6,7 @@ import "./navbar.scss";
 import NavLink from "react-bootstrap/esm/NavLink";
 import { motion } from "framer-motion";
 import { SocialIcon } from 'react-social-icons';
+import { useState } from "react";
 
 const Section = styled.div`
   height: 10vh;
@@ -24,15 +25,25 @@ const Link = styled.a`
 `;
 
 function Navbar() {
+const [isOpen,setIsOpen] = useState(false)
+
+const clickBurger = () => {
+
+  setIsOpen(!isOpen)
+
+  
+
+}
+
   return (
     <Section>
 
     
       <header>
-      <button className="burger">
-        <span style={{transform:'translateY(-0.125rem)',backgroundColor:'black', display:'block',borderRadius:'.5rem', height:'0.125rem', width:'1.5rem'}}></span>
-        <span style={{backgroundColor:'black', display:'block',borderRadius:'.5rem', height:'0.125rem', width:'1.5rem',marginTop:"0.125rem",marginBottom:'0.125rem'}}></span>
-        <span style={{transform:'translateY(0.125rem)',backgroundColor:'black', display:'block',borderRadius:'.1rem', height:'0.125rem', width:'1.5rem'}}></span>
+      <button className="burger" onClick={clickBurger}>
+        <span className="burger1"></span>
+        <span className="burger2"></span>
+        <span className="burger3"></span>
       </button>
         <nav>
           <ul>

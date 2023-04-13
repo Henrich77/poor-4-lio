@@ -5,8 +5,42 @@
   align-items:center;
   background-color: #BFBFBF;
   height: 2rem;
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
 }
 
+.burger1{
+
+    transform:translateY(-0.125rem);
+    background-color:black;
+    display:block;
+    border-radius:0.5rem;
+    height:0.125rem;
+    width: 1.5rem;
+} 
+.burger2{
+
+  background-color:black;
+   display:block;
+   border-radius:.5rem;
+    height:0.125rem;
+     width:1.5rem;
+     margin-top:0.125rem;
+     margin-bottom:0.125rem;
+
+}
+
+.burger3{
+  transform:translateY(0.125rem);
+  background-color:black;
+  display:block;
+  border-radius:0.5rem;
+  height:0.125rem;
+  width: 1.5rem;
+
+}
 header {
   display: flex;
   justify-items: center;

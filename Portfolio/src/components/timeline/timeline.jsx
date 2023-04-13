@@ -3,6 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import './timeline.scss';
 
 import React from "react";
 
@@ -25,7 +26,7 @@ function Timeline() {
           {/* <h3 className="vertical-timeline-element-title"> my info </h3> */}
           {/* <h4 className="vertical-timeline-element-subtitle" style={{fontSize:"1.3rem"}}>
           </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box' >
             {" "}
             Hi, my name is Henrich Tanis and as you can see I am a software
             developer. I was raised in Miami, Florida so I was spoiled with
@@ -42,7 +43,7 @@ function Timeline() {
         >
           {/* <h3 className="vertical-timeline-element-title"> my info </h3> */}
           {/* <h4 className="vertical-timeline-element-subtitle"> Growing up , whenver there was a techical problem in the household I was the one everyone called upon to fix the issue so that is were my tech story begins. I remember when the first touch screen cell phone was introduced to society and my father brought one and did not know how to use it so I begin to learn and teach him </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box' >
             Growing up , whenever there was a technical problem in the household
             I was the one everyone called upon to fix the issue so that is were
             my tech story began and I embraced it. It felt rewarding fixing a
@@ -60,7 +61,7 @@ function Timeline() {
         >
           {/* <h3 className="vertical-timeline-element-title"> my info</h3> */}
           {/* <h4 style={{fontSize:"1.3rem"}} className="vertical-timeline-element-subtitle">   </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box' >
             I graduted highschool in 2018 from Miami Norland Senior High. After
             highschool I was not sure what path I wanted to take in life, I
             attended Broward Community College without a clear and set plan in
@@ -79,7 +80,7 @@ function Timeline() {
             
            
           </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box' >
             Now having acquired that knowledge I wanted to embark on the journey
             of learning software development and that is when I decided to take
             the challenge of going through the UCF Coding Bootcamp which focused
@@ -94,7 +95,7 @@ function Timeline() {
         >
           {/* <h3 className="vertical-timeline-element-title"> my info</h3> */}
           {/* <h4 style={{fontSize:"1.3rem"}} className="vertical-timeline-element-subtitle"> Thank you for taking the time to get to know a little more about me, I am excited to connect with you.  </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box'>
             When I am not working you can catch me at the local gym exercising
             and playing basketball, I still believe that one of these days the
             Miami Heat will contact me to join their basketball team. I also
@@ -113,7 +114,7 @@ function Timeline() {
             
            
           </h4> */}
-          <p style={{ fontSize: "1.3rem" }}>
+          <p id='box' >
             Thank you for taking the time to get to know a little more about me,
             I am excited to connect with you.
           </p>
