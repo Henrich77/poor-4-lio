@@ -1,3 +1,12 @@
+.burger{
+  display:flex; 
+  flex-direction: column;
+  justify-items: center;
+  align-items:center;
+  background-color: #BFBFBF;
+  height: 2rem;
+}
+
 header {
   display: flex;
   justify-items: center;
@@ -20,13 +29,22 @@ header {
     margin-right: 5rem;
     //animation: cd-bounce-1 1s infinite ease alternate;
     //animation: animate 2s infinite ease alternate;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
   nav {
     display: flex;
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
   
     ul {
       display: flex;
       gap: 2rem;
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
   
       li {
         display: flex;

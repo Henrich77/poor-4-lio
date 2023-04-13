@@ -4,11 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion";
+import './nav.scss'
 
 
 function Social() {
   return (
-    <Nav defaultActiveKey="/home" as="ul">
+    <Nav defaultActiveKey="/home" as="ul" className='nav'>
     <Nav.Item as="li">
       <Nav.Link href="/home">
         <motion.li 
