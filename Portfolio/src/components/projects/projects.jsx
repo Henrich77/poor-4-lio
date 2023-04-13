@@ -22,7 +22,7 @@ const Card = ({ title, description, source, img, live }) => {
             speed: 450,
           }}
         >
-          <img className="img" src={img} alt="projects" onClick={() => window.open(live, "_blank")} style={{cursor:"pointer"}}/>
+          <img className="img" src={img} alt="projects" onClick={() => window.open(live)} style={{cursor:"pointer"}}/>
         </Tilt>
       </div>
       <div className="info">

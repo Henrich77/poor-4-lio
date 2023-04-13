@@ -1,6 +1,10 @@
 import React from 'react'
 import './footer.scss'
 import styled from 'styled-components'
+import { FaRegCopyright } from "react-icons/fa";
+import './footer.scss'
+
+
 
 const Section = styled.div`
 height:8vh;
@@ -14,7 +18,12 @@ function Footer() {
     
         <Section>
             <div> 
-                <h2 className='footer-header'> Footer </h2>
+             <footer>
+              <div>
+              <p className='footer'> Made with ❤️ by Henrich Tanis</p>
+              </div>
+              
+             </footer>
             </div>
 
 
