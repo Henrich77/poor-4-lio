@@ -37,6 +37,13 @@ As software developer, my portfolio showcases my technical abilities, problem-so
 
 
 <br>
+<img width="1512" alt="Screenshot 2023-04-12 at 6 44 58 PM" src="https://user-images.githubusercontent.com/119962472/231615540-c3fbf58a-96d3-4863-80c6-25de4bcd8000.png">
+
+<img width="1512" alt="Screenshot 2023-04-12 at 7 42 14 PM" src="https://user-images.githubusercontent.com/119962472/231615629-86edf74d-3c3d-46de-b431-17e15ca2bad4.png">
+
+<img width="1511" alt="Screenshot 2023-04-12 at 7 42 46 PM" src="https://user-images.githubusercontent.com/119962472/231615646-f9a0566a-0679-4f71-8716-ccd93886ef17.png">
+
+
 
 ## <h2 id="usage"> Usage </h2>
 
