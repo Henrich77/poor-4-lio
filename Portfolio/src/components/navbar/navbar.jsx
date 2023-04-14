@@ -49,8 +49,8 @@ const clickBurger = () => {
         <span className={`burger2 ${isOpen ? 'opacity-0':'opacity-100'}`} ></span>
         <span className={`burger3 ${isOpen ? 'transform-rotate-45deg, transform-translateY-0.25rem':'transform-translateY-0.25rem' } `}></span>
       </button> */}
-       <Dropdown>
-      <Dropdown.Toggle className="burger" style={{backgroundColor:' #e79aa2'}}>
+       <Dropdown >
+      <Dropdown.Toggle className="burger" style={{backgroundColor:'transparent', border:'none'}}>
         <span className="burger1"></span>
         <span className="burger2"></span>
         <span className="burger3"></span>

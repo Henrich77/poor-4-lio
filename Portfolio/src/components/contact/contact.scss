@@ -1,3 +1,10 @@
+#contact{
+    @media only screen and (max-width: 768px) {
+       margin-top: 0;
+      }
+
+}
+
 .contactdiv {
     display: flex;
     justify-content: center;
@@ -6,7 +13,8 @@
     margin-left: 3rem;
     border-radius: 20%;
     @media only screen and (max-width: 768px) {
-      margin-left: 0;
+        width: 100vw;
+        margin-left: 0;
       }
 
     form{
@@ -15,6 +23,9 @@
         flex-direction: column;
         width: 30rem;
         justify-content: center;
+        @media only screen and (max-width: 768px) {
+            width: 70vw;
+        }
 
         label{
 
@@ -31,6 +42,9 @@
             margin: 1rem 9rem 0 9rem;
             font-size: 2rem;
             font-family: 'Faster One', cursive;
+            @media only screen and (max-width: 768px) {
+                margin: auto;
+            }
             
         }
       

@@ -45,8 +45,8 @@ function Skills() {
         <Skill name="mongoDB" x="15vw" y="3vw" />
         <Skill name="Git" x="-17vw" y="7vw" />
         <Skill name="GraphQL" x="28vw" y="30vw" />
-        <Skill name="HTML" x="15vw" y="20vw" />
-        <Skill name="Sequelize" x="-43vw" y="18vw" />
+        <Skill name="HTML" x="15vw" y="23vw" />
+        <Skill name="Sequelize" x="-42vw" y="18vw" />
         <Skill name="Express JS" x="33vw" y="18vw" />
         <Skill name="Bootstrap" x="33vw" y="10vw" />
         <Skill name="Sass" x="2vw" y="38vw" />

@@ -10,9 +10,10 @@
     display: none;
     @media only screen and (max-width: 768px) {
         display: flex;
-        idth: 400px;
-    height: 400px;
+        idth: 600px;
+    height: 600px;
     animation: cd-bounce-1 2s infinite ease alternate;
+    margin-bottom: 0px;
       }
  
   

@@ -2,7 +2,7 @@
   font-weight: bold;
   font-size: 4rem;
   margin-top: 12rem;
-  width: 100%;
+  
   text-align: center;
   @media only screen and (max-width: 768px) {
       margin-top: 70rem;
@@ -10,7 +10,8 @@
 }
 .skillsdiv {
   width: auto;
-  height: 80vh;
+  height: 40vh;
+ 
   margin-top: 5rem;
   margin-bottom: 2rem;
   position: relative;
@@ -26,7 +27,7 @@
 
   );
   @media only screen and (max-width: 768px) {
-  align-items:center;
+  margin-top: 10rem;
  
  
   
@@ -53,7 +54,7 @@
   font-size: 18px;
    background-color: transparent;
     color: black;
-    top: 140px;
+    // top: 140px;
     margin-left: 1rem;
 
   
