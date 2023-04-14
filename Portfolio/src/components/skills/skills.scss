@@ -4,6 +4,9 @@
   margin-top: 12rem;
   width: 100%;
   text-align: center;
+  @media only screen and (max-width: 768px) {
+      margin-top: 70rem;
+  }
 }
 .skillsdiv {
   width: auto;
@@ -12,7 +15,7 @@
   margin-bottom: 2rem;
   position: relative;
   display: flex;
-  justify-items: center;
+
   justify-content: center;
   border-radius: 50%;
   background: repeating-radial-gradient(
@@ -20,7 +23,17 @@
     1rem,
     #E79AA2 5px,
     rgb(235, 231, 231) 100px
+
   );
+  @media only screen and (max-width: 768px) {
+  align-items:center;
+ 
+ 
+  
+
+  
+   
+  }
 }
 
 .motion-skill {
@@ -35,6 +48,21 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: absolute;
+  @media only screen and (max-width: 768px) {
+   width: 2rem;
+  font-size: 18px;
+   background-color: transparent;
+    color: black;
+    top: 140px;
+    margin-left: 1rem;
+
+  
+  
+    
+ 
+    
+    
+  }
 }
 
 .skill-motion {

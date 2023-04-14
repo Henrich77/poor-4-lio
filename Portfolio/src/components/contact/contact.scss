@@ -5,6 +5,9 @@
     height: 60vh;
     margin-left: 3rem;
     border-radius: 20%;
+    @media only screen and (max-width: 768px) {
+      margin-left: 0;
+      }
 
     form{
 

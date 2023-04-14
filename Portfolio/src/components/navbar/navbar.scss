@@ -1,9 +1,9 @@
-.burger{
-  display:flex; 
+.burger {
+  display: flex;
   flex-direction: column;
   justify-items: center;
-  align-items:center;
-  background-color: #BFBFBF;
+  align-items: center;
+  background-color: #bfbfbf;
   height: 2rem;
   display: none;
   @media only screen and (max-width: 768px) {
@@ -11,35 +11,31 @@
   }
 }
 
-.burger1{
-
-    transform:translateY(-0.125rem);
-    background-color:black;
-    display:block;
-    border-radius:0.5rem;
-    height:0.125rem;
-    width: 1.5rem;
-} 
-.burger2{
-
-  background-color:black;
-   display:block;
-   border-radius:.5rem;
-    height:0.125rem;
-     width:1.5rem;
-     margin-top:0.125rem;
-     margin-bottom:0.125rem;
-
+.burger1 {
+  transform: translateY(-0.125rem);
+  background-color: black;
+  display: block;
+  border-radius: 0.5rem;
+  height: 0.125rem;
+  width: 1.5rem;
+}
+.burger2 {
+  background-color: black;
+  display: block;
+  border-radius: 0.5rem;
+  height: 0.125rem;
+  width: 1.5rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
 }
 
-.burger3{
-  transform:translateY(0.125rem);
-  background-color:black;
-  display:block;
-  border-radius:0.5rem;
-  height:0.125rem;
+.burger3 {
+  transform: translateY(0.125rem);
+  background-color: black;
+  display: block;
+  border-radius: 0.5rem;
+  height: 0.125rem;
   width: 1.5rem;
-
 }
 header {
   display: flex;
@@ -72,14 +68,14 @@ header {
     @media only screen and (max-width: 768px) {
       width: 100%;
     }
-  
+
     ul {
       display: flex;
       gap: 2rem;
       @media only screen and (max-width: 768px) {
         width: 100%;
       }
-  
+
       li {
         display: flex;
         align-items: center;
@@ -91,10 +87,20 @@ header {
         width: 80px;
         font-weight: bolder;
         font-family: "Times New Roman", Times, serif;
-
       }
     }
   }
 }
+.menu{
+  background-color: #e79aa2;
+}
+.dropdown-menu.show{
 
+  display: grid;
+}
+.navigate{
+  @media only screen and (max-width: 768px) {
+  display: none;
+  }
 
+}
