@@ -3864,9 +3864,9 @@ vec3 mod289(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}vec4 mod289(vec4 x){ret
   //animation: cd-bounce-1 1s infinite ease alternate;
 
   @media only screen and (max-width: 768px) {
-    width: 400px;
-    height: 400px;
-    margin-top: 5rem;
+    width: 350px;
+    height: 350px;
+    margin-top: 5.5rem;
   }
   @keyframes animate {
     to {
@@ -3939,7 +3939,7 @@ border-top: 2px solid black;
     text-align: center;
     gap:0;
   }
-`,sQ=()=>{const n=Z.useRef(),e=t=>{t.preventDefault(),KJ.sendForm("service_n6k4xdb","template_0yeicik",n.current,"F0mLMHcKDkhGNpHks").then(r=>{console.log(r.text)},r=>{console.log(r.text)}),n.current.reset()};return de.jsxs(tQ,{children:[de.jsx("h2",{id:"contact",children:" Contact me "}),de.jsxs(nQ,{children:[de.jsx(iQ,{children:de.jsx("div",{className:"contactdiv",children:de.jsxs("form",{ref:n,onSubmit:e,children:[de.jsx("label",{children:"Name"}),de.jsx("input",{type:"text",name:"user_name"}),de.jsx("label",{children:"Email"}),de.jsx("input",{type:"email",name:"user_email"}),de.jsx("label",{children:"Message"}),de.jsx("textarea",{name:"message"}),de.jsx("input",{className:"submit",type:"submit",value:"Send"})]})})}),de.jsx(rQ,{children:de.jsx(nL,{camera:{position:[5,5,5],fov:25},children:de.jsxs(Z.Suspense,{fallback:null,children:[de.jsx("ambientLight",{intensity:.5}),de.jsx("directionalLight",{position:[3,2,1]}),de.jsx(JJ,{}),de.jsx(mL,{enableZoom:!1,autoRotate:!0})]})})})]}),de.jsx(eQ,{})]})};const oQ=Cn.div`
+`,sQ=()=>{const n=Z.useRef(),e=t=>{t.preventDefault(),KJ.sendForm("service_n6k4xdb","template_0yeicik",n.current,"F0mLMHcKDkhGNpHks").then(r=>{console.log(r.text)},r=>{console.log(r.text)}),n.current.reset()};return de.jsxs(tQ,{children:[de.jsx("h2",{id:"contact",children:" Contact me "}),de.jsxs(nQ,{children:[de.jsx(iQ,{children:de.jsx("div",{className:"contactdiv",children:de.jsxs("form",{ref:n,onSubmit:e,children:[de.jsx("label",{children:"Name"}),de.jsx("input",{type:"text",name:"user_name",placeholder:"Name"}),de.jsx("label",{children:"Email"}),de.jsx("input",{type:"email",name:"user_email",placeholder:"Email"}),de.jsx("label",{children:"Message"}),de.jsx("textarea",{name:"message",placeholder:"Message"}),de.jsx("input",{className:"submit",type:"submit",value:"Send"})]})})}),de.jsx(rQ,{children:de.jsx(nL,{camera:{position:[5,5,5],fov:25},children:de.jsxs(Z.Suspense,{fallback:null,children:[de.jsx("ambientLight",{intensity:.5}),de.jsx("directionalLight",{position:[3,2,1]}),de.jsx(JJ,{}),de.jsx(mL,{enableZoom:!1,autoRotate:!0})]})})})]}),de.jsx(eQ,{})]})};const oQ=Cn.div`
  height:100vh;
  scroll-behavior : smooth;
 scroll-snap-align: center ;
