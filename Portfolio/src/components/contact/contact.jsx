@@ -109,11 +109,11 @@ export const Contact = () => {
       <div className='contactdiv'>
       <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" placeholder='Name'/>
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="user_email" placeholder='Email'/>
       <label>Message</label>
-      <textarea name="message" />
+      <textarea name="message" placeholder='Message' />
       <input className='submit' type="submit" value="Send"/>
       </form>
     </div>

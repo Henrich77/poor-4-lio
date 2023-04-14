@@ -128,9 +128,9 @@ const Img = styled.img`
   //animation: cd-bounce-1 1s infinite ease alternate;
 
   @media only screen and (max-width: 768px) {
-    width: 400px;
-    height: 400px;
-    margin-top: 5rem;
+    width: 350px;
+    height: 350px;
+    margin-top: 5.5rem;
   }
   @keyframes animate {
     to {
