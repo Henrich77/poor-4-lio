@@ -171,7 +171,7 @@ function Hero() {
           </Summary>
 
          <motion.div whileHover={{ scale:1.5 }}
-            ><Link href="https://github.com/Henrich77/poor-4-lio/files/11217316/HENRICH.RESUME.pdf" target={"_blank"}  download={true}><Button> Resume <MdFileDownload style={{fontSize:"1.5rem"}}/></Button></Link></motion.div>
+            ><Link href="https://github.com/Henrich77/poor-4-lio/files/11268593/HENRICH.RESUME.pdf" target={"_blank"}  download={true}><Button> Resume <MdFileDownload style={{fontSize:"1.5rem"}}/></Button></Link></motion.div>
         </Left>
         <Right>
           <Canvas className="sphere">
